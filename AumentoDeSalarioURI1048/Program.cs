@@ -12,6 +12,8 @@ namespace AumentoDeSalarioURI1048
             //Faz a leitura do salário com duas casas decimais 
             salario = double.Parse(Console.ReadLine(),CultureInfo.InvariantCulture);
             
+            //Efetura o cálculo conforme o salario
+            
             if (salario <= 400.00)
             {
                 total = salario * 15 / 100;
